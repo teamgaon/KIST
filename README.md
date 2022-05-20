@@ -69,3 +69,8 @@
 > ![image](https://user-images.githubusercontent.com/91044039/169463606-01081ea4-b91b-487f-bc77-ad20df4dd4ac.png)
 > 
 > - 최종 선별된 변수
+
+### 모델
+> ![image](https://user-images.githubusercontent.com/91044039/169463817-afbfb70a-531b-44fd-bf05-f6e81c39002a.png)
+> 
+> - 최종 선별된 변수로 모델링
