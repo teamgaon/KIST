@@ -36,6 +36,16 @@
 > ...
 > 
 > ![image](https://user-images.githubusercontent.com/91044039/169458775-eaff4250-3ae2-454f-af86-b17774119c70.png)
+> 
 > 상관계수 0.3 미만인 변수 삭제
+> 
 > - 다중 선형회귀 모형 결과
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169458927-84d9af1c-0142-4f9d-a311-5f557b541c8e.png)
+
+### Stepwise Feature Selection
+> ![image](https://user-images.githubusercontent.com/91044039/169459207-9573ae34-f352-4730-9fa3-6858a3ae2b1c.png)
+> ![image](https://user-images.githubusercontent.com/91044039/169459233-c7760c15-a7bd-4a8e-8559-f5b8a9d3e4a3.png)
+> - Stepwise를 통해 선별된 변수
+> 
+> ![image](https://user-images.githubusercontent.com/91044039/169459288-314b35d9-9ecb-4ec7-aa1d-9bc8355174d6.png)
