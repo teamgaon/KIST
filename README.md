@@ -66,7 +66,7 @@
 > 
 > ![image](https://user-images.githubusercontent.com/91044039/169463566-bc653e7a-5094-4c8b-bd1e-b329da14884c.png)
 > 
-> ![image](https://user-images.githubusercontent.com/91044039/169463606-01081ea4-b91b-487f-bc77-ad20df4dd4ac.png)
+> ![image](https://user-images.githubusercontent.com/91044039/169465358-fd9affc5-0685-43ce-8648-e70dd2df1ebe.png)
 > 
 > - 최종 선별된 변수
 
