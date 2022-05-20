@@ -74,3 +74,10 @@
 > ![image](https://user-images.githubusercontent.com/91044039/169463817-afbfb70a-531b-44fd-bf05-f6e81c39002a.png)
 > 
 > - 최종 선별된 변수로 모델링
+
+### 모델 검증
+> ![image](https://user-images.githubusercontent.com/91044039/169464031-584672ad-dbea-4f37-93f2-a79e0cfef89e.png)
+
+### 결론
+> ![image](https://user-images.githubusercontent.com/91044039/169464073-5d2363d7-a00f-48c0-bcb9-95b3bd705306.png)
+> - 통계적 방법으로 도출된 위 식을 활용하여 식물의 생육 정도를 추정할 수 있는 정량 지표  
