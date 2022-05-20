@@ -60,7 +60,7 @@
 > 
 > - 다중공선성을 방지하기 위해 VIF를 계산하여 다중공선성이 있는 변수 제거
 > 
-> ![image](https://user-images.githubusercontent.com/91044039/169463492-2f6134b2-9494-4b46-8b0c-72d0c8b68a81.png)
+> ![image](https://user-images.githubusercontent.com/91044039/169465245-44e7cc2d-d53e-4e4e-8472-6caa76997d49.png)
 > 
 > - VIF가 10을 초과하는 변수를 Stepwise 방식으로 제거
 > 
