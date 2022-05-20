@@ -25,3 +25,7 @@
 > target : 90%
 >
 >![download](https://user-images.githubusercontent.com/91044039/169457770-5be531b5-fd89-4f0a-8ce9-dce2fb56528c.png)
+
+### 데이터
+> ![image](https://user-images.githubusercontent.com/91044039/169458070-adac835d-387b-4aac-a9bc-66479009890b.png)
+> - 환경 데이터를 사용하여 생육 정도를 나타내는 target을 예측
