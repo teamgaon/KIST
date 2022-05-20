@@ -53,11 +53,19 @@
 
 ### VIF(다중공선성)
 > ![image](https://user-images.githubusercontent.com/91044039/169463278-fd4f6c23-e211-43ea-b6bf-120bd2be3555.png)
+> 
 > - Heatmap을 확인해보면 변수들간의 강한 상관 관계를 갖는 변수들을 확인할 수 있음
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169463410-bfd3cbff-4259-4ece-9b8f-233b37e39928.png)
+> 
 > - 다중공선성을 방지하기 위해 VIF를 계산하여 다중공선성이 있는 변수 제거
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169463492-2f6134b2-9494-4b46-8b0c-72d0c8b68a81.png)
+> 
 > - VIF가 10을 초과하는 변수를 Stepwise 방식으로 제거
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169463566-bc653e7a-5094-4c8b-bd1e-b329da14884c.png)
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169463606-01081ea4-b91b-487f-bc77-ad20df4dd4ac.png)
+> 
 > - 최종 선별된 변수
