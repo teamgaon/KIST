@@ -29,3 +29,7 @@
 ### 데이터
 > ![image](https://user-images.githubusercontent.com/91044039/169458070-adac835d-387b-4aac-a9bc-66479009890b.png)
 > - 환경 데이터를 사용하여 생육 정도를 나타내는 target을 예측
+
+### 상관분석
+> ![image](https://user-images.githubusercontent.com/91044039/169458736-bf0faa97-3bbb-420b-8350-013a9768cb45.png)
+> ![image](https://user-images.githubusercontent.com/91044039/169458775-eaff4250-3ae2-454f-af86-b17774119c70.png)
