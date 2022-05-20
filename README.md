@@ -32,7 +32,9 @@
 
 ### 상관분석
 > ![image](https://user-images.githubusercontent.com/91044039/169458736-bf0faa97-3bbb-420b-8350-013a9768cb45.png)
+> 
 > ...
+> 
 > ![image](https://user-images.githubusercontent.com/91044039/169458775-eaff4250-3ae2-454f-af86-b17774119c70.png)
 > 상관계수 0.3 미만인 변수 삭제
 > - 다중 선형회귀 모형 결과
