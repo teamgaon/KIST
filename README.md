@@ -81,3 +81,58 @@
 ### 결론
 > ![image](https://user-images.githubusercontent.com/91044039/169464073-5d2363d7-a00f-48c0-bcb9-95b3bd705306.png)
 > - 통계적 방법으로 도출된 위 식을 활용하여 식물의 생육 정도를 추정할 수 있는 정량 지표  
+
+
+## Algorithm
+
+- 목적
+
+청경채 사진과 환경 데이터를 활용한 잎면적 예측 알고리즘 개발
+
+- 데이터
+    1. 이미지 데이터
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9aee6d95-8714-443d-a185-f3550256fd2c/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6dfc920-65d7-488e-8ca5-ed3435f1c5ac/Untitled.png)
+
+1. 환경 데이터
+- 촬영 된 시각으로부터 1일간 1분 간격으로 측정된 환경정보 데이터
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2753c781-78f6-4cfe-a56c-7f0a0a38b57f/Untitled.png)
+    
+2. label
+- 해당 이미지 파일명
+- 해당 이미지가 촬영된 시점으로부터 1일 후의 잎 면적(중량)
+- 전처리
+train의 모든 csv파일의 열별 최소 최대치를 찾아서 dict로 저장
+해당 dict를 사용하여 MinMaxScaling
+
+데이터 경로를 데이터프레임 형태로 구성 target은 weight
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f19d620-2f43-40fd-9442-512970be296a/Untitled.png)
+    
+
+       이미지, 메타데이터, 타겟을 반환하는 커스텀 데이터셋 정의
+
+        이미지 데이터 변환
+         - 사이즈변환, 노멀라이징, 텐서 변환
+
+- 이미지 변환 적용한 데이터 셋
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ebd673f-7d4a-45f3-8461-f0b5d17ad52e/Untitled.png)
+    
+- 모델링
+5 fold로 모델을 fine-tuning 한 후 voting ensemble
+    - Model
+        - CNN과 RNN을 결합한 모델
+        (CNN: Convnext / RNN: LSTM)
+    - Optimizer
+        - Adam
+    - Scheduler
+        - LambdaLR
+    - Criterion
+        - L1Loss (MAE)
+- 결과
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97776d98-5e22-4d54-a534-4590526537a6/Untitled.png)
