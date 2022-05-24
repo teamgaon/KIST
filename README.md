@@ -92,14 +92,14 @@
 - 데이터
     1. 이미지 데이터
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9aee6d95-8714-443d-a185-f3550256fd2c/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959327-445313ae-05a3-4f6d-a2e2-840e076f35da.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6dfc920-65d7-488e-8ca5-ed3435f1c5ac/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959350-9e14e8dc-bae0-4595-a512-8b9273a53799.png)
 
 1. 환경 데이터
 - 촬영 된 시각으로부터 1일간 1분 간격으로 측정된 환경정보 데이터
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2753c781-78f6-4cfe-a56c-7f0a0a38b57f/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959375-e8c080b2-b90b-4220-b966-18e2a01e0a50.png)
     
 2. label
 - 해당 이미지 파일명
@@ -110,7 +110,7 @@ train의 모든 csv파일의 열별 최소 최대치를 찾아서 dict로 저장
 
 데이터 경로를 데이터프레임 형태로 구성 target은 weight
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f19d620-2f43-40fd-9442-512970be296a/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959406-e77f98e5-402c-49aa-aa83-a6994623cb76.png)
     
 
        이미지, 메타데이터, 타겟을 반환하는 커스텀 데이터셋 정의
@@ -120,7 +120,7 @@ train의 모든 csv파일의 열별 최소 최대치를 찾아서 dict로 저장
 
 - 이미지 변환 적용한 데이터 셋
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ebd673f-7d4a-45f3-8461-f0b5d17ad52e/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959419-0d9949d3-1f4c-4e45-b53b-14bc514d00ab.png)
     
 - 모델링
 5 fold로 모델을 fine-tuning 한 후 voting ensemble
@@ -135,4 +135,4 @@ train의 모든 csv파일의 열별 최소 최대치를 찾아서 dict로 저장
         - L1Loss (MAE)
 - 결과
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97776d98-5e22-4d54-a534-4590526537a6/Untitled.png)
+![image](https://user-images.githubusercontent.com/91044039/169959437-3f0903f2-165e-4e91-8de5-f807a5bdddae.png)
